@@ -62,10 +62,8 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 Program:
-```
- EXPERIMENT 1:
+```EXPERIMENT 1:
 LOGIC GATES
-
 GATE LEVEL MODEL:
 module log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
 input a,b;
@@ -90,6 +88,6 @@ endmodule
 <img width="1920" height="1080" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/a7bf0567-700d-4a1f-a5cc-5a43e391d1a3" />
 
 **Result:**
-
+The expected output has been generated successfuly.
 
 
