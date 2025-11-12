@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### Study-of-basic-gates
 
 **AIM:** 
 
@@ -6,7 +6,7 @@ To study and verify the truth table of logic gates in Quartus II using Verilog p
 
 **Equipments Required:**
 
-Software – Quartus prime 
+Software – Quartus II
 
 **Theory**
 
@@ -61,19 +61,35 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
+Program:
+```
+ EXPERIMENT 1:
+LOGIC GATES
 
-**PROGRAM**
-
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
- 
+GATE LEVEL MODEL:
+module log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
+output c1,c2,c3,c4,c5,c6,c7;
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b);
+endmodule
+ ```
 **Logic symbol & Truthtable**
+![gates](https://github.com/user-attachments/assets/96f516a9-877f-4e9e-84a9-9123ef36585c)
 
 **RTL realization Output:** 
 
+<img width="1920" height="1080" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/fe0c95d7-864e-4901-a270-ee09a3aa3fbe" />
 **RTL**
 
+<img width="1920" height="1080" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/a7bf0567-700d-4a1f-a5cc-5a43e391d1a3" />
+
 **Result:**
+
 
 
